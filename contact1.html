@@ -45,26 +45,31 @@
 
             <!-- Contact Form -->
             <div class="contactform">
-                <form action="#">
-                    <h2>Send Message</h2>
-                    <div class="inputbox">
-                        <input type="text" name="fullname" required>
-                        <span>Full Name</span>
-                    </div>
-                    <div class="inputbox">
-                        <input type="email" name="email" required>
-                        <span>Email</span>
-                    </div>
-                    <div class="inputbox">
-                        <textarea name="message" required></textarea>
-                        <span>Type your message...</span>
-                    </div>
-                    <div class="inputbox">
-                        <input type="submit" value="Send">
-                    </div>
-                </form>
+                <form action="https://formspree.io/f/mvgwbwwq" method="POST" id="contactForm">
+  <h2>Send Message</h2>
+
+  <div class="inputbox">
+    <input type="text" name="fullname" required>
+    <span>Full Name</span>
+  </div>
+
+  <div class="inputbox">
+    <input type="email" name="email" required>
+    <span>Email</span>
+  </div>
+
+  <div class="inputbox">
+    <textarea name="message" required></textarea>
+    <span>Type your message...</span>
+  </div>
+
+  <div class="inputbox">
+    <input type="submit" value="Send">
+  </div>
+</form>
             </div>
         </div>
     </section>
 </body>
 </html>
+
